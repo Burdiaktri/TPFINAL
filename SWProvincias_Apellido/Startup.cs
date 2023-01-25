@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace SWProvincias_Apellido
 {
@@ -27,6 +28,7 @@ namespace SWProvincias_Apellido
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DBPaisFinalContext>(options => options.UseSqlServer(Configuration.GetConnectionString("KeyDB")));
+            services.AddMvc().AddNewtonsoftJson(o => o.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
             services.AddControllers();
         }
 
