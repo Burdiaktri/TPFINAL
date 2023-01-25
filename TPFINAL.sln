@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWProvincias_Apellido", "SWProvincias_Apellido\SWProvincias_Apellido.csproj", "{1370BEA9-CE10-4327-AF6A-357D2594711E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWAdventureWorks_Apellido", "SWAdventureWorks_Apellido\SWAdventureWorks_Apellido.csproj", "{DB3EFE47-DFA2-43EC-BF91-7095402F0C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1370BEA9-CE10-4327-AF6A-357D2594711E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1370BEA9-CE10-4327-AF6A-357D2594711E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1370BEA9-CE10-4327-AF6A-357D2594711E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3EFE47-DFA2-43EC-BF91-7095402F0C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3EFE47-DFA2-43EC-BF91-7095402F0C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3EFE47-DFA2-43EC-BF91-7095402F0C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3EFE47-DFA2-43EC-BF91-7095402F0C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
